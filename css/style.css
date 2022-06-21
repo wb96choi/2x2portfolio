@@ -6,6 +6,8 @@
 
 body {
   font-size: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 h2 {
@@ -29,6 +31,102 @@ a {
 
 /* 버튼 */
 .link-btn {
-  padding: 10px 20px;
+  width: 134px;
+  height: 43px;
   border: 1px solid #000;
+  background-color: #fff;
+  text-align: center;
+  line-height: 43px;
+  padding: 10px 20px;
+}
+
+#main-header {
+  width: 330px;
+  min-height: 100vh;
+  background: #ccc;
+  padding: 48px 52px;
+  float: left;
+  position: relative;
+}
+
+#main-header > h1 {
+  width: 100px;
+  height: 100px;
+  background: #333;
+  border-radius: 40%;
+  margin: 0 auto;
+  
+  background-image: url(/images/profile.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#main-header > p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 97px;
+}
+
+#gnb > ul > li > a {
+  width: 226px;
+  height: 49px;
+  /* outline: 1px solid red; */
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sns {
+  position: absolute;
+  bottom: 48px;
+  left: 83px;
+}
+#sns a {
+  margin-right: 25px;
+}
+
+/* main너비 = 100% - 330px */
+main {
+  background: #666;
+  float: left;
+  width: calc(100% - 330px);  
+  height: 100vh;
+}
+main > .box {
+  width: 50%;
+  height: 50vh;
+  /* outline: 2px solid red; */
+  text-align: center;
+  float: left;
+  display: block;
+  white-space: nowrap;
+  /* overflow: hidden; */
+}
+main > .box > h2 {
+  margin-top: 40%;
+  margin-bottom: 25px;
+  color: #fff;
+}
+main > .box > .link-btn {
+
+}
+main .box:nth-child(1) {
+  background-image: url(/images/filter_box.png), url(/images/img01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main .box:nth-child(2) {
+  background-image: url(/images/filter_box.png), url(/images/img02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main .box:nth-child(3) {
+  background-image: url(/images/filter_box.png), url(/images/img03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main .box:nth-child(4) {
+  background-image: url(/images/filter_box.png), url(/images/img04.jpg);
+  background-size: cover;
+  background-position: center;
 }
