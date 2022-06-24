@@ -55,8 +55,8 @@ a {
   background: #333;
   border-radius: 40%;
   margin: 0 auto;
-  
-  background-image: url(../images/profile.jpg);
+
+  background-image: url(/images/profile.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -89,7 +89,7 @@ a {
 main {
   background: #666;
   float: left;
-  width: calc(100% - 330px);  
+  width: calc(100% - 330px);
   height: 100vh;
 }
 main > .box {
@@ -108,25 +108,24 @@ main > .box > h2 {
   color: #fff;
 }
 main > .box > .link-btn {
-
 }
 main .box:nth-child(1) {
-  background-image: url(../images/filter_box.png), url(../images/img01.jpg);
+  background-image: url(/images/filter_box.png), url(/images/img01.jpg);
   background-size: cover;
   background-position: center;
 }
 main .box:nth-child(2) {
-  background-image: url(../images/filter_box.png), url(../images/img02.jpg);
+  background-image: url(/images/filter_box.png), url(/images/img02.jpg);
   background-size: cover;
   background-position: center;
 }
 main .box:nth-child(3) {
-  background-image: url(../images/filter_box.png), url(../images/img03.jpg);
+  background-image: url(/images/filter_box.png), url(/images/img03.jpg);
   background-size: cover;
   background-position: center;
 }
 main .box:nth-child(4) {
-  background-image: url(../images/filter_box.png), url(../images/img04.jpg);
+  background-image: url(/images/filter_box.png), url(/images/img04.jpg);
   background-size: cover;
   background-position: center;
 }

@@ -1,4 +1,5 @@
-# portfolio4x4
+# portfolio2x2
+2x2 portfolio layout
 https://wb96choi.github.io/4x4portfolio/
 
 
